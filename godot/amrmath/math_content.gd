@@ -1,20 +1,50 @@
 extends Sprite2D
 
+var math_content_list = DoublyLinkedList.new()
+var current_math_content_list_node = null
+
 var texture1 = preload("res://algebraic_expression_definition.png") # Preload for efficiency
+var texture2 = preload("res://Components_of_an_algebraic_expression.png")
 
 func _ready():
-	# Example: Change the sprite when the scene is ready
+	# Change the sprite when the scene is ready
 	texture = texture1
+	###
+	# load the math content into the math_content_list
+	math_content_list.append(texture1)
+	math_content_list.append(texture2)
+	###
+	current_math_content_list_node = math_content_list.head
 
-func _input(event):
-	if event is InputEventScreenTouch:
-		if not event.pressed:  # Check if the touch is released
-			# This code will execute when a screen touch is released
-			print("Screen touch released at position: ", event.position)
-			# Add your custom action here, e.g.,
-			# do_something_on_touch_release()
-			if texture == texture1:
-				texture = preload("res://Components_of_an_algebraic_expression.png")
-			else:
-				texture = texture1
+func move_to_next_node():
+	current_math_content_list_node = current_math_content_list_node.next_node
+	
+func is_current_node_last_node():
+	if(current_math_content_list_node == math_content_list.tail):
+		return true
+	else:
+		return false
+		
+func move_to_prev_node():
+	current_math_content_list_node = current_math_content_list_node.prev_node
+	
+func is_current_node_first_node():
+	if(current_math_content_list_node == math_content_list.head):
+		return true
+	else:
+		return false
+
+
+			
+#func _input(event):
+	#if event is InputEventScreenTouch:
+		#if not event.pressed:  # Check if the touch is released
+			## This code will execute when a screen touch is released
+			#print("Screen touch released at position: ", event.position)
+			## Add your custom action here, e.g.,
+			## do_something_on_touch_release()
+			#if texture == texture1:
+				#texture = preload("res://Components_of_an_algebraic_expression.png")
+			#else:
+				#texture = texture1
 		

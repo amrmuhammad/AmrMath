@@ -22,6 +22,17 @@ window/size/viewport_height=2340
 window/stretch/mode="canvas_items"
 window/handheld/orientation=1
 
+[input]
+
+next_action={
+"deadzone": 0.2,
+"events": []
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [rendering]
 
 textures/vram_compression/import_etc2_astc=true
