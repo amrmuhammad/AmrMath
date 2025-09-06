@@ -6,7 +6,9 @@ var current_math_content_list_node = null
 var textures = [
 	preload("res://math_content_textures/algebraic_expression_definition.png"),
 	preload("res://math_content_textures/Components_of_an_algebraic_expression.png"),
-	preload("res://math_content_textures/Components_of_an_algebraic_expression_2.png")
+	preload("res://math_content_textures/Components_of_an_algebraic_expression_2.png"),
+	preload("res://math_content_textures/Components_of_an_algebraic_expression_3.png"),
+	preload("res://math_content_textures/Components_of_an_algebraic_expression_4.png")
 ]
 
 func _ready():
