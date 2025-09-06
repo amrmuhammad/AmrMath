@@ -3,16 +3,20 @@ extends Sprite2D
 var math_content_list = DoublyLinkedList.new()
 var current_math_content_list_node = null
 
-var texture1 = preload("res://algebraic_expression_definition.png") # Preload for efficiency
-var texture2 = preload("res://Components_of_an_algebraic_expression.png")
+var textures = [
+	preload("res://math_content_textures/algebraic_expression_definition.png"),
+	preload("res://math_content_textures/Components_of_an_algebraic_expression.png"),
+	preload("res://math_content_textures/Components_of_an_algebraic_expression_2.png")
+]
 
 func _ready():
 	# Change the sprite when the scene is ready
-	texture = texture1
+	texture = textures[0]
 	###
 	# load the math content into the math_content_list
-	math_content_list.append(texture1)
-	math_content_list.append(texture2)
+	for current_texture in textures:
+		math_content_list.append(current_texture)
+		
 	###
 	current_math_content_list_node = math_content_list.head
 
