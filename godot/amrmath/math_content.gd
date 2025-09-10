@@ -8,7 +8,11 @@ var textures = [
 	preload("res://math_content_textures/Components_of_an_algebraic_expression.png"),
 	preload("res://math_content_textures/Components_of_an_algebraic_expression_2.png"),
 	preload("res://math_content_textures/Components_of_an_algebraic_expression_3.png"),
-	preload("res://math_content_textures/Components_of_an_algebraic_expression_4.png")
+	preload("res://math_content_textures/Components_of_an_algebraic_expression_4.png"),
+	preload("res://math_content_textures/Components_of_an_algebraic_expression_5.png"),
+	preload("res://math_content_textures/Examples_of_algebraic_expressions.png"),
+	preload("res://math_content_textures/Types_of_Algebraic_Expressions.png"),
+	preload("res://math_content_textures/examples_of_monomials.png"),
 ]
 
 func _ready():
