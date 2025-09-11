@@ -13,6 +13,7 @@ var textures = [
 	preload("res://math_content_textures/Examples_of_algebraic_expressions.png"),
 	preload("res://math_content_textures/Types_of_Algebraic_Expressions.png"),
 	preload("res://math_content_textures/examples_of_monomials.png"),
+	preload("res://math_content_textures/examples_of_binomials.png")  
 ]
 
 func _ready():
