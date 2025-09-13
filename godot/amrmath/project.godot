@@ -22,6 +22,10 @@ window/size/viewport_height=2340
 window/stretch/mode="canvas_items"
 window/handheld/orientation=1
 
+[editor]
+
+movie_writer/movie_file="/home/amrmuhammad/dev/AmrMath/godot/amrmath/movies/movie.avi"
+
 [input]
 
 next_action={
