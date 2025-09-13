@@ -16,7 +16,8 @@ var textures = [
 	preload("res://math_content_textures/examples_of_binomials.png"),
 	preload("res://math_content_textures/examples_of_trinomials.png"),
 	preload("res://math_content_textures/examples_of_polynomials.png") ,
-	preload("res://math_content_textures/common_operations_on_algebraic_expressions.png")
+	preload("res://math_content_textures/common_operations_on_algebraic_expressions.png"),
+	preload("res://math_content_textures/common_operations_on_algebraic_expressions2.png")
 ]
 
 func _ready():
