@@ -19,7 +19,8 @@ var textures = [
 	preload("res://math_content_textures/common_operations_on_algebraic_expressions.png"),
 	preload("res://math_content_textures/common_operations_on_algebraic_expressions2.png"),
 	preload("res://math_content_textures/common_operations_on_algebraic_expressions3.png"),
-	preload("res://math_content_textures/common_operations_on_algebraic_expressions4.png")
+	preload("res://math_content_textures/common_operations_on_algebraic_expressions4.png"),
+	preload("res://math_content_textures/exponents.png"),
 ]
 
 func _ready():
