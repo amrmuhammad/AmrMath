@@ -29,6 +29,7 @@ var textures = [
 	preload("res://math_content_textures/exponents7.png"),
 	preload("res://math_content_textures/exponents8.png"),
 	preload("res://math_content_textures/exponents9.png"),
+	preload("res://math_content_textures/exponents10.png")
 ]
 
 func _ready():
