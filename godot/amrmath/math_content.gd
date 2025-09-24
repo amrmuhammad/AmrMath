@@ -21,6 +21,7 @@ var textures = [
 	preload("res://math_content_textures/common_operations_on_algebraic_expressions3.png"),
 	preload("res://math_content_textures/common_operations_on_algebraic_expressions4.png"),
 	preload("res://math_content_textures/algebraic_expressions_exercises.png"),
+	preload("res://math_content_textures/algebraic_expressions_exercises2.png"),
 	preload("res://math_content_textures/exponents.png"),
 	preload("res://math_content_textures/exponents2.png"),
 	preload("res://math_content_textures/exponents3.png"),
