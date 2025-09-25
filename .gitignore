@@ -1,5 +1,6 @@
 godot/amrmath/AmrMath.apk
 godot/amrmath/AmrMath.apk.idsig
 auto_generation
-godot/assets/gimp_plugins/c-hello-world
-godot/assets/gimp_plugins/c-hello-world2
+godot/assets/gimp_plugins/c-hello-world/c-hello-world
+godot/assets/gimp_plugins/c-hello-world2/c-hello-world2
+godot/assets/gimp_plugins/c-math-text-creator/c-math-text-creator
